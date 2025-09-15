@@ -51,12 +51,13 @@ Create a Comet ML account and get your API key.
 Set it as an environment variable:
 
 ```export COMET_API_KEY="your-api-key"```
-**
-4️⃣ Run ETL pipeline**
+
+
+**4️⃣ Run ETL pipeline**
 
 ```python src/etl/run_etl.py```
 
-5️⃣ Train the model
+**5️⃣ Train the model**
 
 ```python src/models/train.py
 
