@@ -11,6 +11,8 @@ It is designed for:
 
 **Anime enthusiasts (geeks)** who want smart suggestions for what to watch next.
 
+Dataset Link : https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset
+
 ****🚀 Features****
 
 ✅ Data ingestion & preprocessing with **ETL pipeline**
@@ -27,38 +29,35 @@ It is designed for:
 ****⚙️ Installation & Setup****
 
 1️⃣ **Clone the repository**
+
 ```git clone https://github.com/your-username/anime-recommender-mlops.git```
+
 ```cd anime-recommender-mlops```
 
-2️⃣ Create virtual environment & install dependencies
+**2️⃣ Create virtual environment & install dependencies**
+
 ```python -m venv venv```
+
 ```source venv/bin/activate```   # (Linux/Mac)
+
 ```venv\Scripts\activate```      # (Windows)
 
 ```pip install -r requirements.txt```
-
-3️⃣ Configure Comet ML
+**
+3️⃣ Configure Comet ML**
 
 Create a Comet ML account and get your API key.
 
 Set it as an environment variable:
 
-export COMET_API_KEY="your-api-key"
+```export COMET_API_KEY="your-api-key"```
+**
+4️⃣ Run ETL pipeline**
 
-4️⃣ Run ETL pipeline
-python src/etl/run_etl.py
+```python src/etl/run_etl.py```
 
 5️⃣ Train the model
-python src/models/train.py
 
-6️⃣ Deploy via Jenkins (CI/CD)
+```python src/models/train.py
 
-Jenkins is configured to:
 
-Pull latest code from GitHub
-
-Run tests
-
-Trigger model training
-
-Deploy to GCP
