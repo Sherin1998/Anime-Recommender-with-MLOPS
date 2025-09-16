@@ -57,8 +57,12 @@ Set it as an environment variable:
 
 ```python src/etl/run_etl.py```
 
-**5️⃣ Train the model**
 
-```python src/models/train.py
+
+**4️⃣ Run Model**
+python src/model.py
+
+
+
 
 
