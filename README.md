@@ -17,12 +17,12 @@ Dataset Link : https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset
 
 ✅ Data ingestion & preprocessing with **ETL pipeline**
 
-✅ Model tracking & experiment management via **Comet ML
-**
-✅ Automated CI/CD pipeline using **Jenkins
-**
-✅ Scalable infrastructure deployed on **Google Cloud Platform (GCP)
-**
+✅ Model tracking & experiment management via **Comet ML**
+
+✅ Automated CI/CD pipeline using **Jenkins**
+
+✅ Scalable infrastructure deployed on **Google Cloud Platform (GCP)**
+
 ✅ Recommender system powered by collaborative filtering + content-based approaches
 
 
